@@ -1,22 +1,21 @@
 package org.example;
 
-public class Operation<T extends String> {
-	String a;
-	String b;
-	String c;
-	
-	public String Maximum(String a, String b, String c) {
-		this.a = a;
-		this.b = b;
-		this.c = c;
-		
-		String maximum = a;
-		if (b.compareTo(maximum) > 0) {
-			maximum = b;
-			
-		} if (c.compareTo(maximum) > 0) {
-			maximum = c;
-		} return maximum;
-	}
+import java.util.Arrays;
 
+public class Operation<T extends Comparable<T>> {
+	T[]arr;
+	
+	public void getValue(T[] arr) {
+		this.arr = arr;
+		maxi();
+	}
+	
+	public <T extends Comparable<T>> void Maximum() {
+		Arrays.sort(arr);
+	}
+		public void maxi () {
+			Integer a = arr.length;
+			T object = arr[a - 1];
+			System.out.println(object);
+		}
 }
