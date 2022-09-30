@@ -25,7 +25,7 @@ public class Operation<T extends Number> {
 			System.out.println(b + "is maximum");
 		}else {
 			System.out.println(c + "is maximum");
-		}
+		} 
 	}
 
 }
