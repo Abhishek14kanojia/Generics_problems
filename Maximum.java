@@ -12,10 +12,7 @@ public class Maximum {
 			obj.getValue(intArray);
 			obj1.getValue(doubleArray);
 			obj2.getValue(stringArray);
-			obj.maxi();
-			obj1.maxi();
-			obj2.maxi();
-		
+			
 		}		
 }
  
