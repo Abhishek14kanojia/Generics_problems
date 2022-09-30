@@ -1,11 +1,11 @@
 package org.example;
 
 public class Operation<T extends Number> {
-	Integer a;
-	Integer b;
-	Integer c;
+	Float a;
+	Float b;
+	Float c;
 	
-	public void Maximum(Integer a, Integer b, Integer c) {
+	public void Maximum(Float a, Float b, Float c) {
 		this.a = a;
 		this.b = b;
 		this.c = c;
